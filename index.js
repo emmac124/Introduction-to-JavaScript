@@ -18,8 +18,14 @@ Do the following:
    HINT: no function required
 */
 
-
-
+// let votingAge = 18;
+// if (votingAge > 17){
+//   return true;
+// }
+// let votingAge = 18;
+// if (votingAge > 17){
+//   console.log('true');
+// }
 /*
 Task 1b - Values
 
@@ -31,7 +37,11 @@ Do the following:
    HINT: no function required
 */
 
-
+// let niceWeather = "sunshine";
+// let badWeather = "rain";
+// if (niceWeather === badWeather){
+//   console.log ()
+// }
 
 
 
@@ -59,8 +69,9 @@ Do the following:
 */
 
 function multiply(a, b){
-    return a * b;
-  }
+  return a * b;
+}
+
 
 
 
@@ -74,11 +85,9 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(humanYears){
+   return humanYears * 7;
 }
-
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -107,9 +116,14 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
-  }
+// function hungryDog(weightAge, percentage){
+//     if (weightAge > 1){
+//       return weightAge * percentage;
+//     }
+//   }
+ function hungryDog(){
+  
+ }
 
 
 
@@ -135,7 +149,7 @@ Use the game function below to do the following:
 */
 
 function game(user, computer){
-    /*add your code here*/
+   
 }
   
   
@@ -151,10 +165,9 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(km){ 
+   
   }
-
 
 
 //Task 5b - Feet to CM
@@ -165,8 +178,8 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-    /*add your code here*/
+function feet(cm){
+   return cm / 30.08;
   }
  
 
@@ -189,34 +202,35 @@ function annoyingSong(/*add your code here*/){
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Grade Calculator
-/*
-Using the grade function below do the following: 
-  1. Receive a score out of 100 
-  2. Return the corresponding letter grade following this grade scale:
 
-   90-100 should return 'you got an A' 
-   80-89 should return 'you got a B'
-   70-79 should return 'you got a C'
-   60-69 should return 'you got a D'
-   below should return 'you got an F'
-*/
-  
-// function grade(num){
-//     if(num < 100 && num >= 90){
-//       return 'you got an A';
-//     }else if(num <90 && num >= 80){
-//       return 'you got a B';
-//     }else if(num < 80 && num >= 70){
-//       return 'you got a C';
-//     }else if(num < 70 && num >= 60){
-//       return 'you got a D';
-//     }else if(num < 60){
-//       return 'you got an F';
-//     }
-//   }
-  
-//   console.log('grade function', grade(85));
-  
+// Using the grade function below do the following: 
+//   1. Receive a score out of 100 
+//   2. Return the corresponding letter grade following this grade scale:
+
+  //  90-100 should return 'you got an A' 
+  //  80-89 should return 'you got a B'
+  //  70-79 should return 'you got a C'
+  //  60-69 should return 'you got a D'
+  //  below should return 'you got an F'
+
+  function grade(score){
+    if (score >= 90){
+      return 'you got an A';
+    }
+    else if(score >= 80 && score <= 89){
+      return 'you got a B';
+    }
+    else if(score >= 70 && score <= 79){
+      return 'you got a C';
+    }
+    else if(score >= 60 && score <= 69){
+      return 'you got a D';
+    }
+    else if(score < 60){
+      return 'you got an F';
+    }
+    }
+
   
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
